@@ -9,14 +9,21 @@ document.getElementById('btn-Withdraw').addEventListener('click', function(){
     const newwithdrawammountstring = depositfield.value;
     const newwithdrawammount = parseFloat(newwithdrawammountstring);
 
+    // step-last: clear deposit field 
+    depositfield.value = '';
+
+    if(isNaN(newwithdrawammount)){
+        alert('Pleas Provide a Number')
+        return;
+    }
+
+
     // step-4: get the current withdraw total and change string to number
     const withdrawtotalelemant = document.getElementById('withdraw-total');
     const previaswithdrawtotalstring = withdrawtotalelemant.innerText;
     const previaswithdrawtotal = parseFloat(previaswithdrawtotalstring);
 
-    //step-5: add Number to set the total withdraw
-    const currentwithdrawtotal = previaswithdrawtotal + newwithdrawammount;
-    withdrawtotalelemant.innerText = currentwithdrawtotal;
+    
 
     // ===================================================================================================
 
@@ -31,11 +38,19 @@ document.getElementById('btn-Withdraw').addEventListener('click', function(){
     const previasbalancetotalstring = balancetotalelemant.innerText;
     const previasbalancetotal = parseFloat(previasbalancetotalstring);
 
-    //step-5: add Number to set the total balance 
+    // step-:5 withraw ammount limitation condition 
+    if(newbalanceammount > previasbalancetotal){
+        alert('Tomar Baper Bank a Etto Tk Nai Okay.........!!')
+        return;
+    }
+
+    //step-5 for withdraw: add Number to set the total withdraw
+    const currentwithdrawtotal = previaswithdrawtotal + newwithdrawammount;
+    withdrawtotalelemant.innerText = currentwithdrawtotal;
+
+    //step-6: add Number to set the total balance 
     // Balance
     const currentbalancetotal = previasbalancetotal - newbalanceammount;
     balancetotalelemant.innerText = currentbalancetotal;
     
-    // step-6: clear deposit field 
-    depositfield.value = '';
 })
