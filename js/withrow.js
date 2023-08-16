@@ -19,7 +19,7 @@
         const previaswithdrawtotal = parseFloat(previaswithdrawtotalstring);
 
         if(isNaN( newwithdrawammount)){
-            alert('Pleas Provide a Number')
+            alert('Pleas Input a Ammount')
             return;
         }
     // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -39,7 +39,7 @@
         withdrawfield.value = '';
 
         if(newbalanceammount > previasbalancetotal){
-            alert('tomar baper bank a etto teha nai okay.......!!')
+            alert('Tomar Baper Bank a Etto Teha nai okay.......!!')
             return;
         }
 
