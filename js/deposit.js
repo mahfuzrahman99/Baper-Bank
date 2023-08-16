@@ -36,7 +36,7 @@ document.getElementById('btn-Deposit').addEventListener('click', function(){
 
     //step-5: add Number to set the total balance 
     // Balance
-    const currentbalancetotal = previasbalancetotal + newbalanceammount;
+    const currentbalancetotal = newbalanceammount + previasbalancetotal;
     balancetotalelemant.innerText = currentbalancetotal;
 
 
