@@ -16,6 +16,11 @@ document.getElementById('btn-Deposit').addEventListener('click', function(){
     const previasdeposittotalstring = diposittotalelemant.innerText;
     const previasdeposittotal = parseFloat(previasdeposittotalstring);
 
+    if(isNaN( newdepositammount)){
+        alert('Pleas Input a Ammount')
+        return;
+    }
+
     //step-5: add Number to set the total deposit 
     // Deposit
     const currentdeposittotal = previasdeposittotal + newdepositammount;
