@@ -18,7 +18,6 @@ Check out the live version of this project [here](https://baper-bank-eta.vercel.
 - **JavaScript (ES6)**
 
 ## 📂 Project Structure
-```plaintext
 Baper Bank
 ├── index.html            # Login page
 ├── bank.html             # Main banking interface
@@ -64,7 +63,6 @@ Baper Bank
 ## Installation Instructions:
 
 1. Clone this repository:  
-   ```bash
    git clone https://github.com/yourusername/baper-bank.git
 
 
