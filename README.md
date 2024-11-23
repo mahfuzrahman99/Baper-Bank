@@ -31,24 +31,27 @@ Baper Bank
 └── README.md             # Project documentation
 
 
-1. **Login Process:**
+# Banking System Instructions
+
+## 1. **Login Process:**
    - Enter a valid username and password to access the banking interface.
    - Username: `demo`
    - Password: `demo123`
 
-2. **Deposit Money:**
+## 2. **Deposit Money:**
    - Enter an amount in the deposit field and click "Deposit".
    - The total deposit and balance will update in real-time.
 
-3. **Withdraw Money:**
+## 3. **Withdraw Money:**
    - Enter an amount in the withdraw field and click "Withdraw".
    - Withdrawal is allowed only if the entered amount does not exceed the current balance.
    - If invalid, an alert will notify the user of insufficient funds.
 
-4. **Real-Time Updates:**
+## 4. **Real-Time Updates:**
    - Both deposit and withdrawal amounts reflect instantly on the account balance.
    - User interaction is validated for incorrect or empty input fields.
 
+---
 
 ### Login Page
 ![Login Page](path/to/login-page-screenshot.png)
@@ -56,15 +59,18 @@ Baper Bank
 ### Banking Dashboard
 ![Banking Dashboard](https://prnt.sc/1THamACwvGac)
 
+---
+
+## Installation Instructions:
 
 1. Clone this repository:  
    ```bash
    git clone https://github.com/yourusername/baper-bank.git
 
 
-
 ## 👨‍💻 Author
-```markdown
+
 **Mahfuzur Rahman Shabbir**  
 - Frontend Developer & Web Development Coach  
-- Connect with me on [LinkedIn](https://www.linkedin.com/in/mahfuzurrahmanshabbir/)  
+- Connect with me on [LinkedIn](https://www.linkedin.com/in/mahfuzurrahmanshabbir/)
+
