@@ -23,17 +23,6 @@
             return;
         }
     // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-    
-        // step-3: balance ammount change string to number
-        // Balance 
-        const newbalanceammountstring = withdrawfield.value;
-        const newbalanceammount = parseFloat(newbalanceammountstring);
-    
-        // step-4: get the current balance total and change string to number
-        // Balance
-        const balancetotalelemant = document.getElementById('balance-total');
-        const previasbalancetotalstring = balancetotalelemant.innerText;
-        const previasbalancetotal = parseFloat(previasbalancetotalstring);
 
         // step-6: clear deposit field 
         withdrawfield.value = '';

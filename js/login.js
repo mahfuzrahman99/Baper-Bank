@@ -4,11 +4,11 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     // step-2 get the iput text of email 
     const emailField = document.getElementById('user-email');
     const email = emailField.value;
-    console.log(email);
+    // console.log(email);
      // step-3 get the iput text of password
      const passwordField = document.getElementById('user-password');
      const password = passwordField.value;
-     console.log(password);
+    //  console.log(password);
     //  step-4 varify email and password
     if(email === 'shontanerbaba@gmail.com' && password === 'secrete' ){
         window.location.href = 'bank.html';
@@ -16,3 +16,19 @@ document.getElementById('btn-submit').addEventListener('click', function(){
         alert('pleas inter valid input')
     }
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
