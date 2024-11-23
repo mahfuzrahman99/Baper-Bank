@@ -53,10 +53,10 @@ Baper Bank
 ---
 
 ### Login Page
-![Login Page](path/to/login-page-screenshot.png)
+<img src="path/to/login-page-screenshot.png" alt="Login Page" />
 
 ### Banking Dashboard
-![Banking Dashboard](https://prnt.sc/1THamACwvGac)
+<img src="https://prnt.sc/1THamACwvGac" alt="Banking Dashboard" />
 
 ---
 
